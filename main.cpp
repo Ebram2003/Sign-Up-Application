@@ -52,7 +52,7 @@ class User
         std::cin>>Name;
         print_msg("Age: ");
         std::cin>>age;
-        print_msg(Name);
+        print_msg("User record added successfully\n");
     }
     bool Fetch_Record(int UserID)
     {
